@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-md bg-gradient-to-r from-blush/25 via-lavender/25 to-sky/25 shadow-sm">
 
-      <div className="max-w-5xl mx-auto px-4 md:px-6 py-2 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 py-2 flex items-center justify-between">
 
         {/* Logo */}
         <NavLink to="/" className="flex items-center">
@@ -19,7 +19,7 @@ function Navbar() {
         </NavLink>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-6 text-warmBrown text-base font-semibold tracking-wide">
+        <div className="hidden md:flex items-center gap-5 text-warmBrown text-sm lg:text-base font-semibold tracking-wide">
 
           <NavLink
             to="/"
@@ -55,6 +55,16 @@ function Navbar() {
             }
           >
             Shop
+          </NavLink>
+
+          {/* NEW Coloring Pages */}
+          <NavLink
+            to="/coloring-pages"
+            className={({ isActive }) =>
+              isActive ? "text-coral whitespace-nowrap" : "hover:text-coral transition whitespace-nowrap"
+            }
+          >
+            Coloring Pages
           </NavLink>
 
           <NavLink
@@ -98,7 +108,7 @@ function Navbar() {
           {/* Desktop Book Now */}
           <NavLink
             to="/book-here"
-            className="bg-blush hover:bg-coral text-warmBrown px-6 py-2 rounded-full text-sm font-semibold shadow-md transition duration-300 hover:scale-105"
+            className="bg-blush hover:bg-coral text-warmBrown px-5 py-2 rounded-full text-sm font-semibold shadow-md transition duration-300 hover:scale-105 whitespace-nowrap"
           >
             Book Now
           </NavLink>
@@ -135,6 +145,11 @@ function Navbar() {
 
             <NavLink to="/shop" onClick={() => setIsOpen(false)} className="hover:text-coral transition">
               Shop
+            </NavLink>
+
+            {/* NEW Mobile Coloring Pages */}
+            <NavLink to="/coloring-pages" onClick={() => setIsOpen(false)} className="hover:text-coral transition">
+              Coloring Pages
             </NavLink>
 
             <NavLink to="/gallery" onClick={() => setIsOpen(false)} className="hover:text-coral transition">
