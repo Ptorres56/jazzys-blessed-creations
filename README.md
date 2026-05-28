@@ -1,9 +1,9 @@
-```md
 # Jazzy's Blessed Creations
 
 Custom bilingual website created for a local banner and event business based in Central Florida.
 
 ## Live Website
+
 https://www.jazzysblessedcreations.com/
 
 ## About The Project
@@ -14,27 +14,25 @@ The website includes bilingual support, service information, booking sections, a
 
 ## Features
 
-- Responsive mobile friendly design
-- English and Spanish language toggle
-- Modern UI and branding
-- Custom digital banner packages
-- Gallery and inspiration sections
-- Booking and contact pages
-- Deployed with Vercel
+* Responsive mobile friendly design
+* English and Spanish language toggle
+* Modern UI and branding
+* Custom digital banner packages
+* Gallery and inspiration sections
+* Booking and contact pages
+* Deployed with Vercel
 
 ## Tech Stack
 
-- React
-- JavaScript
-- Vite
-- Tailwind CSS
-- React Router
-- Vercel
+* React
+* JavaScript
+* Vite
+* Tailwind CSS
+* React Router
+* Vercel
 
 ## What I Learned
 
 This project helped strengthen my frontend development skills while working on responsive layouts, routing, component structure, bilingual support, and real world business design needs.
 
 It also gave me experience deploying and maintaining a live production website.
-```
-
