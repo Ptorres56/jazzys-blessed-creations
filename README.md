@@ -1,16 +1,40 @@
-# React + Vite
+```md
+# Jazzy's Blessed Creations
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Custom bilingual website created for a local banner and event business based in Central Florida.
 
-Currently, two official plugins are available:
+## Live Website
+https://www.jazzysblessedcreations.com/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About The Project
 
-## React Compiler
+This website was designed and developed to help a small business establish a modern and professional online presence. The focus was creating a clean, elegant, and mobile friendly experience that reflects the creativity of the brand.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The website includes bilingual support, service information, booking sections, and digital product options for customers.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive mobile friendly design
+- English and Spanish language toggle
+- Modern UI and branding
+- Custom digital banner packages
+- Gallery and inspiration sections
+- Booking and contact pages
+- Deployed with Vercel
+
+## Tech Stack
+
+- React
+- JavaScript
+- Vite
+- Tailwind CSS
+- React Router
+- Vercel
+
+## What I Learned
+
+This project helped strengthen my frontend development skills while working on responsive layouts, routing, component structure, bilingual support, and real world business design needs.
+
+It also gave me experience deploying and maintaining a live production website.
+```
+
